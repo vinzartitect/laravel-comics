@@ -2,5 +2,68 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header li {
+  list-style: none;
+  display: inline;
+}
+
+header .additional-links {
+  background: #0282f9;
+  padding: 5px 0;
+}
+
+header .additional-links ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .additional-links ul a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 100px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+header nav .logo {
+  height: 80px;
+}
+
+header nav .nav-links a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+header nav .nav-links a:hover {
+  color: #0282f9;
+  padding: 40px 0;
+  border-bottom: 5px solid #0282f9;
+}
+
+header nav .search-bar {
+  border: none;
+  border-bottom: 2px solid #0282f9;
+  text-align: right;
+}
+
+main {
+  background: chartreuse;
 }
 

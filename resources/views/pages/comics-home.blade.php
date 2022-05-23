@@ -1,5 +1,9 @@
 @extends('layouts.main-layout')
 @section('content')
-    <span>home content</span>
-    <a href="{{'details'}}">Go to details</a>
+    <main>
+        <h1>
+            home content
+        </h1>
+        <a href="{{'details'}}">Go to details</a>
+    </main>
 @endsection
