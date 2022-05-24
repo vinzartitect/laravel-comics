@@ -1,5 +1,4 @@
 @extends('layouts.app')
-@section('title','dc-comics')
 
 @section('content')
     <div class="container-alert">

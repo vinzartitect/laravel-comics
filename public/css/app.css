@@ -211,3 +211,52 @@ header {
   background-color: #0282f9;
   padding: 10px 20px;
 }
+
+.container-comics-card {
+  background-color: #1c1c1c;
+  color: white;
+  margin: 0px 0px;
+  padding: 30px 90px;
+}
+.container-comics-card .container-cardb {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+}
+.container-comics-card .container-cardb .card-comics {
+  display: flex;
+  flex-direction: column;
+  width: 16.6666666667%;
+}
+.container-comics-card .container-cardb .card-comics h2 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 0 20px;
+}
+.container-comics-card .container-cardb .card-comics img {
+  padding: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0% 0%;
+     object-position: 0% 0%;
+}
+.container-comics-card .container-cardb .card-comics img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.text-container a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.text-container .txt {
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 20px;
+}
