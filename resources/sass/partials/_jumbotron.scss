@@ -1,0 +1,17 @@
+.jumbo-space {
+  height: 400px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  position: relative;
+  
+  .series {
+    color: white;
+    padding: 10px;
+    background-color: #0282f9;
+    width: 16%;
+    position: absolute;
+    bottom: -20px;
+    left: 165px;
+    z-index: 999;
+  }
+}
