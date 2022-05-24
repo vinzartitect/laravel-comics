@@ -126,3 +126,12 @@ footer .social .social-cont div ul li {
 main {
   background: chartreuse;
 }
+main .hero {
+  height: 400px;
+  overflow: hidden;
+}
+main .hero img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
