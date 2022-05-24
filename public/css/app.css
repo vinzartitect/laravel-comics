@@ -9,19 +9,16 @@ header li {
   list-style: none;
   display: inline;
 }
-
 header .additional-links {
   background: #0282f9;
   padding: 5px 0;
 }
-
 header .additional-links ul {
   display: flex;
   justify-content: flex-end;
   width: 80%;
   margin: 0 auto;
 }
-
 header .additional-links ul a {
   text-decoration: none;
   color: #fff;
@@ -29,7 +26,6 @@ header .additional-links ul a {
   font-size: 0.8rem;
   font-weight: bold;
 }
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -38,11 +34,9 @@ header nav {
   margin: 0 auto;
   padding: 10px 0;
 }
-
 header nav .logo {
   height: 80px;
 }
-
 header nav .nav-links a {
   color: #000;
   text-decoration: none;
@@ -50,20 +44,85 @@ header nav .nav-links a {
   font-size: 1rem;
   font-weight: bold;
 }
-
 header nav .nav-links a:hover {
   color: #0282f9;
   padding: 40px 0;
   border-bottom: 5px solid #0282f9;
 }
-
 header nav .search-bar {
   border: none;
   border-bottom: 2px solid #0282f9;
   text-align: right;
 }
 
+footer nav {
+  background-image: url("../img/footer-bg.jpg");
+}
+footer nav .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  overflow: hidden;
+}
+footer nav .container .link-cont {
+  display: flex;
+  padding: 50px 0;
+}
+footer nav .container .link-cont ul {
+  margin: 0 40px 20px 0;
+}
+footer nav .container .link-cont ul h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+footer nav .container .link-cont ul li {
+  list-style: none;
+  margin: 5px 0;
+}
+footer nav .container .link-cont ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: gray;
+}
+footer nav .container .link-cont ul li a:hover {
+  color: lightgray;
+}
+footer nav .container .footer-logo {
+  height: 150%;
+  transform: translate(0, -20%);
+}
+footer .social {
+  background: #303030;
+  padding: 20px 0;
+}
+footer .social .social-cont {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social .social-cont a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #0282f9;
+  font-weight: bold;
+}
+footer .social .social-cont .sign-btn {
+  color: #fff;
+  padding: 10px 15px;
+  border: 2px solid #0282f9;
+}
+footer .social .social-cont div {
+  display: flex;
+  align-items: center;
+}
+footer .social .social-cont div ul li {
+  display: inline;
+}
+
 main {
   background: chartreuse;
 }
-
