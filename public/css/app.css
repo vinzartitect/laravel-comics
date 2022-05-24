@@ -124,7 +124,18 @@ footer .social .social-cont div ul li {
 }
 
 main {
-  background: chartreuse;
+  background: #1c1c1c;
+  position: relative;
+  padding-bottom: 80px;
+}
+main .label {
+  color: #fff;
+  background: #0282f9;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  transform: translate(80%, -50%);
 }
 main .hero {
   height: 400px;
@@ -134,4 +145,48 @@ main .hero img {
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 100%;
+}
+main .comics-cont {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .comics-cont .comic-card {
+  width: 16.6666666667%;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+main .comics-cont .comic-card a {
+  color: lightgray;
+  text-decoration: none;
+}
+main .comics-cont .comic-card a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+main .comics-cont .comic-card a img {
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  margin-bottom: 10px;
+}
+main .btn {
+  display: flex;
+  justify-content: center;
+}
+main .btn a {
+  color: #fff;
+  background: #0282f9;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+main .btn a:hover {
+  text-decoration: underline;
 }
