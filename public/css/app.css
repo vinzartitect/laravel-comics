@@ -212,50 +212,71 @@ header {
   padding: 10px 20px;
 }
 
-.container-comics-card {
+.container-comics-card-detail {
   background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   margin: 0px 0px;
   padding: 30px 90px;
 }
-.container-comics-card .container-cardb {
+.container-comics-card-detail .container-card {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 17px;
 }
-.container-comics-card .container-cardb .card-comics {
+.container-comics-card-detail .container-card .card-comics {
   display: flex;
   flex-direction: column;
-  width: 16.6666666667%;
+  justify-content: center;
+  align-items: center;
 }
-.container-comics-card .container-cardb .card-comics h2 {
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  padding: 0 20px;
-}
-.container-comics-card .container-cardb .card-comics img {
+.container-comics-card-detail .container-card .card-comics img {
   padding: 20px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 0% 0%;
      object-position: 0% 0%;
 }
-.container-comics-card .container-cardb .card-comics img:hover {
-  transform: scale(1.1);
-  cursor: pointer;
+.container-comics-card-detail .container-card .card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-comics-card-detail .container-card .card-info h3 {
+  margin-bottom: 10px;
+}
+.container-comics-card-detail .container-card .card-info h5 {
+  margin-bottom: 10px;
+}
+.container-comics-card-detail .container-info {
+  text-align: center;
+}
+.container-comics-card-detail .container-info h4 {
+  margin-top: 10px;
+}
+.container-comics-card-detail .container-info .artist {
+  list-style: none;
+}
+.container-comics-card-detail .container-info .writers {
+  list-style: none;
 }
 
-.text-container {
+.text-container-detail {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.text-container a {
+.text-container-detail a {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
-.text-container .txt {
+.text-container-detail .txt {
   color: white;
   background-color: #0282f9;
   padding: 10px 20px;
